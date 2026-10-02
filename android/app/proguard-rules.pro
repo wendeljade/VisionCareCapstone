@@ -1,0 +1,11 @@
+-keep class org.tensorflow.lite.** { *; }
+-keep class org.tensorflow.lite.gpu.** { *; }
+-keep class org.tensorflow.lite.support.** { *; }
+-keep class org.tensorflow.lite.annotations.** { *; }
+-keep class org.tensorflow.lite.DataType { *; }
+-keep class org.tensorflow.lite.gpu.GpuDelegateFactory$Options { *; }
+-keepnames class org.tensorflow.lite.gpu.GpuDelegateFactory$Options
+-keep class org.tensorflow.lite.gpu.GpuDelegate { *; }
+-keep class org.tensorflow.lite.gpu.GpuDelegateFactory { *; }
+-keepattributes *Annotation*
+-dontwarn org.tensorflow.lite.gpu.GpuDelegateFactory$Options
